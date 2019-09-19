@@ -7,7 +7,7 @@ public class Encrypt {
 		int[] dataArray = new int[4];
 		
 		Scanner inputObj = new Scanner(System.in);
-		//System.out.println("Enter Word");
+		System.out.println("Enter Word");
 		
 		int code = inputObj.nextInt();
 		int tempCode = code;
@@ -21,23 +21,8 @@ public class Encrypt {
 		
 		for(int i = 0; i < 4; i++) {
 			
-			dataArray[i] = ((dataArray[i] + 7) % 10);
-		}
-		
-		int temp = 0;
-		
-		temp = dataArray[0];
-		dataArray[0] = dataArray[2];
-		dataArray[2] = temp;
-		
-		temp = dataArray[1];
-		dataArray[1] = dataArray[3];
-		dataArray[3] = temp;
-		
-		for(int i = 0; i < 4; i++) {
-			
 			//System.out.println(i);
-			System.out.print(dataArray[i]);
+			System.out.println(dataArray[i]);
 		}
 	}
 }
