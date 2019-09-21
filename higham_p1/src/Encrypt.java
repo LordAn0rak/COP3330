@@ -36,5 +36,7 @@ public class Encrypt {
 			
 			System.out.print(dataArray[i]);
 		}
+		
+		inputObj.close();
 	}
 }

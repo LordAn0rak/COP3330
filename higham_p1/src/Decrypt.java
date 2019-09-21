@@ -45,5 +45,7 @@ public class Decrypt {
 				
 			System.out.print(dataArray[i]);
 		}
+		
+		inputObj.close();
 	}
 }
